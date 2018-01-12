@@ -37,3 +37,20 @@ ate/walked dog, then started coding.  Went fairly smooth tonight, have a project
 
 **Link(s) to work**
 1. https://github.com/cowleyk/OneHundredDaysP1
+
+### Day 4: January 11, Thursday
+
+**Today's Goal**: Populate DB with historical data for backtesting
+
+**Today's Progress**: Populated DB with historical data.
+
+**Thoughts**: Used Python's eval(), probably not the best idea but should be fine for my use case. 
+Made a super simple block.  I should try to put the real time service in the cloud 
+and connect to a cloud db. good opportunity to learn AWS stuff.
+
+**Tomorrow**: Unit tests/documentation for list_split block, start backtesting on December
+data.  Maybe set up service to get custom candle intervals for more granular/wider range of data 
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
