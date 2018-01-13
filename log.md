@@ -54,3 +54,23 @@ data.  Maybe set up service to get custom candle intervals for more granular/wid
 **Link(s) to work**
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
+
+### Day 5: January 12, Friday
+
+**Today's Goal**: Create block to output trendline data points. Plot w/ plotly block. 
+May be helpful to develop in jupyter notebook.
+
+**Today's Progress**: Built MVP of block using numpy's polyfit. Need to be able to compile
+array over n signals, but currently will take an array and degree x, calc a x-th degree
+polynomial coefficient matrix, and spit out each p(x) for the dependent variables.
+
+**Thoughts**: It's Friday night, didn't get home until 9pm, don't really wanna code. 
+Weekends will be the toughest part of this challenge by far.  Didn't use TDD on polynomial
+block, wish I would have.
+
+**Tomorrow**:
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
