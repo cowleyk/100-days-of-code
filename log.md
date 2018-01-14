@@ -87,7 +87,8 @@ Thinking about focusing more on backtesting aspect.  Might want to shift to clou
 writing postgresQuery block?
 
 **Tomorrow**: Calculate +/- stdev of polyfit line (either from block or new block)
-Start buy sell logic (incorporate volume)  
+Start buy sell logic (incorporate volume)
+*FIGURE OUT WHY PLOTLY BLOCK KEEPS MATCHING RANGE(Y-AXIS) WITH RANGE(X-AXIS)*
 stretch - ~~AWS~~ Google cloud stuff for cloud db (ultimate goal: host service on raspPi)
 stretch.stretch - ~~AWS~~ Google cloud stuff for hosting frontend
 
