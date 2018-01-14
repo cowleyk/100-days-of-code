@@ -2,6 +2,8 @@
 
 - TEST DRIVEN DEVELOPMENT
 
+- Connect to GDAX websocket
+
 - More granular/wider history range
 	- Multiple polls w/ nio
 	- Set time range as incoming signal
@@ -12,4 +14,4 @@
 - Personal Website
 	- GoLang backend
 	- React/Redux frontend (React Native?)
-	- Hosted on AWS
+	- Hosted on ~~AWS~~ Google cloud

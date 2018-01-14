@@ -68,9 +68,30 @@ polynomial coefficient matrix, and spit out each p(x) for the dependent variable
 Weekends will be the toughest part of this challenge by far.  Didn't use TDD on polynomial
 block, wish I would have.
 
-**Tomorrow**:
+**Tomorrow**: Finish up block (handle stream of prices), plot everything with plotly
+start buy sell logic (incorporate volume)  
+
 **Link(s) to work**
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
 
+### Day 6: January 13, Saturday
+
+**Today's Goal**: Finish up polyfit block, plot with plotly, start buy/sell logic.
+
+**Today's Progress**: Polyfit handles streaming data, service will plot price and polyfit line.
+
+**Thoughts**: Made ok progress. Want to see results from polyfit over longer period.  
+Thinking about focusing more on backtesting aspect.  Might want to shift to cloud db rather than
+writing postgresQuery block?
+
+**Tomorrow**: Calculate +/- stdev of polyfit line (either from block or new block)
+Start buy sell logic (incorporate volume)  
+stretch - ~~AWS~~ Google cloud stuff for cloud db (ultimate goal: host service on raspPi)
+stretch.stretch - ~~AWS~~ Google cloud stuff for hosting frontend
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
