@@ -96,3 +96,19 @@ stretch.stretch - ~~AWS~~ Google cloud stuff for hosting frontend
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
+
+### Day 7: January 14, Sunday
+
+**Today's Goals**: Calc +/- stdev line for polynomial, start google cloud db
+
+**Todays Progress**: Polyfit block outputting residual calcs, GoogleSQL cloud db set up
+with tables, need to figure out authentication
+
+**Thoughts**:
+
+**Tomorrow**:
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
