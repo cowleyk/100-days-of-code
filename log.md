@@ -112,3 +112,18 @@ with tables, need to figure out authentication
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
+
+### Day 8: January 15, Monday
+
+**Today's Goals**: Connect to google cloud db
+
+**Today's Progress**:  Connected? Maybe? No idea how to implement outside of shell
+
+**Thoughts**:  Frustration. Lethargy. Lack of interest.
+
+**Tomorrow**:
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
