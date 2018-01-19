@@ -127,3 +127,56 @@ with tables, need to figure out authentication
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
+
+### Day 9: January 16, Tuesday
+
+**Today's Goals**: Connect to google cloud db (try API rather than an engine, will need to provide different creds?) 
+Documentation: Blocks, general progress - start doc containing attempts(successful/failures), why I try things, etc
+Plan: Revisit outline of blog/app, consider refocusing efforts
+Play with ui-scaffold, see if I can't get pubkeeper configured
+
+**Today's Progress**:  Wrote unittests and block documentation.
+
+**Thoughts**:  Didn't make enough time, only went for 30 min.
+
+**Tomorrow**: Back to google cloud
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+### Day 10: January 17, Wednesday
+
+**Today's Goals**: Connect to google cloud (use API route, ditch engine stuff)
+
+**Today's Progress**:  Decent day!  Connect to google cloud w/ service account credentials
+Should be able to utilize psycopg2 from here out once I get a proxy correctly running!
+
+**Thoughts**:  Encouraging end to a frustrating beginning.  The googleapiclient/service
+library only lets me manage databases remotely.  Proxy should be first step to actually getting
+a block usable w/ the DB.
+
+**Tomorrow**:
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+### Day 11: January 18, Thursday
+
+**Today's Goals**: Sign and authorize GDAX request
+
+**Today's Progress**: Worked on connecting to API @ meetup.  Learned about what's needed
+to execute trades
+
+**Thoughts**:  Light night.
+
+**Tomorrow**: Build out service. UI-Scaffold visualization would be really nice.
+Design way to compare current value with buy/sell indicators (state block?)
+
+**Link(s) to work**
+1. https://github.com/cowleyk/OneHundredDaysP1
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
