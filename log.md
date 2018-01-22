@@ -180,3 +180,22 @@ Design way to compare current value with buy/sell indicators (state block?)
 1. https://github.com/cowleyk/OneHundredDaysP1
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
+
+### Day 12: January 21, Sunday
+
+**Today's Goals**: Sign and authorize GDAX request, build GDAX block.
+~~Polyfit block needs to output line + stdevs at t+1, t+2 ...~~ <- build out line on front end
+
+**Today's Progress**: Create service for buy sell logic. 
+Need way to filter out noise near stdev lines (debounce blocks?)
+
+**Thoughts**:  Back from weekend break.
+
+**Tomorrow**: Create 'get order' block to grab transaction fee for accounting
+Put service onto Pi to have running for a week
+*WRITE BLOCK AND SERVICE TESTS*
+
+**Link(s) to work**
+1. https://github.com/cowleyk/gdax
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
