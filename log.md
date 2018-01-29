@@ -199,3 +199,92 @@ Put service onto Pi to have running for a week
 1. https://github.com/cowleyk/gdax
 2. https://github.com/cowleyk/list_split
 3. https://github.com/cowleyk/polyfit
+
+### Day 13: January 22, Monday
+
+**Today's Goals**: Create 'get order' block
+
+**Today's Progress**: Split gdax into base, place_order, and get_order blocks.
+ Fiddled with service but not sure why independent/dependent values are getting
+ jumbled.
+
+**Thoughts**:  Service seems to be acting up :(
+
+**Tomorrow**: Pue service onto Pi to have running for a week
+BRING HOME KEYBOARD
+*WRITE BLOCK AND SERVICE TESTS*
+
+**Link(s) to work**
+1. https://github.com/cowleyk/gdax
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+### Day 14: January 23, Tuesday
+
+**Today's Goals**: Get service functioning properly, unittest blocks
+
+**Today's Progress**:  Confirmed something is wrong on system level w. pub/sub
+Will need to create new system
+ 
+**Thoughts**: Struggled with motivation.
+
+**Tomorrow**: See Planning section below
+ 
+**Link(s) to work**
+1. https://github.com/cowleyk/gdax
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+### Day 15: January 24, Wednesday
+
+**Today's Goals**: Unittest component_environment
+
+**Today's Progress**: Unittest for `handler.py`
+
+**Thoughts**: Worked on work stuff, not true to #100DaysOfCode principles. O well.
+
+**Tomorrow**: See Planning section below
+
+**Link(s) to work**
+1. https://github.com/cowleyk/gdax
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+### Day 16: January 25, Thursday
+
+**Today's Goals**: *start by posting progress on rockymountaincrypto.slack. A summary will be good to get flowing*
+Create new system, verify pub/sub functioning
+UI-scaffold attempt
+want to make strides on blog tonight. not just unittests or work-work. 
+
+**Today's Progress**: 
+
+**Thoughts**:
+
+**Link(s) to work**
+1. https://github.com/cowleyk/gdax
+2. https://github.com/cowleyk/list_split
+3. https://github.com/cowleyk/polyfit
+
+##Planning
+FOCUS ON MVP
+- start fresh system
+    - ensure pub/sub working
+- get gdax & polyfit blocks released
+    - would be useful to run it in the cloud
+    - OR put it onto my Pi
+- post guts on rockymountaincrypto.slack
+- decide on time intervals
+    - what's reasonable for data processing? Should polyfit just spit out coefficients?
+        - *really only need most recent value for comparison. should calc arrays on front end*
+        - Run polyfit calcs 1/day for last x days/weeks, have socket stream set up to continuously check values
+            - store most recent coefficients as state
+            - would be good idea to run calcs w/ multiple intervals, compare residuals and pick most linear interval
+- change stdev lines to +/- sqrt(residual/n)
+    - residual = sum of squares of fit errors
+- Need retry/delay logic to check orders AFTER they are filled (want to get actual fill data)
+- some sort of visualization would be very useful (necessary) to actually blog it
+- Switch polyfit block to use OLS from statsmodels
+    - http://www.statsmodels.org/stable/examples/notebooks/generated/ols.html
+- GDAX socket block using https://github.com/danpaquin/gdax-python/blob/master/gdax/websocket_client.py
+- Check out https://github.com/ccxt/ccxt
